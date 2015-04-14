@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//ApacheSoftwareFoundation//DTDTilesConfiguration2.1//EN"
+"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+	<definition name="Template" template="/WEB-INF/JSP/tiles/Template.jsp">
+		<put-attribute name="title" value="Registration"/>
+		<put-attribute name="header" value="/WEB-INF/JSP/tiles/Header.jsp"/>
+		<put-attribute name="menu" value="/WEB-INF/JSP/tiles/Menu.jsp"></put-attribute>
+		<put-attribute name="footer" value="/WEB-INF/JSP/tiles/Footer.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="home" extends="Template">
+		<put-attribute name="content" value="/WEB-INF/JSP/tiles/Registration.jsp"/>	
+	</definition>
+	
+	<definition name="Success" extends="Template">
+		<put-attribute name="content" value="/WEB-INF/JSP/tiles/Success.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="Failure" extends="Template">
+		<put-attribute name="content" value="/WEB-INF/JSP/tiles/Failure.jsp"></put-attribute>
+	</definition>
+</tiles-definitions>

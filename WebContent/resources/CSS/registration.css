@@ -1,0 +1,47 @@
+
+body{
+	margin:90px 90px 90px 90px;
+	padding:0;
+	background:#FFF;
+}
+
+#mainDiv{
+	background:#DCDCDC;
+}
+
+#Header{
+	background-color:black;
+	text-align:center;
+	color:#FFFFFF;
+	padding:30px;
+}
+
+#Menu{
+	background-color:#eeeeee;
+	float:left;
+	height:300px;
+	width:200px;
+	padding:20px;
+}
+
+#Content{
+	
+	height:300px;
+	width:auto;
+	padding:20px 20px 20px 30px;
+	float:left;
+	
+	
+}
+
+#Footer{
+	
+	background-color:black;
+	text-align:right;
+	color:#FFFFFF;
+	clear:both;
+	padding:5px;
+	
+	
+	
+}
